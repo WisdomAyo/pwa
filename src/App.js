@@ -23,7 +23,7 @@ const search = async (e) => {
         
         <div className="main-container">
         <h1>Wisdom Weather App</h1>
-        <input   type="text" className="search" placeholder="Seacrh..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}
+        <input   type="text" className="search" placeholder="Enter your City" value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}
 />
             {weather.main &&(
                 <div className="city">
